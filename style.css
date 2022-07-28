@@ -35,11 +35,42 @@
     }
 }
 
-@media only screen and (min-width:0px) and (max-width:992px) {
-    .container {}
+@media only screen and (min-width:768px) and (max-width:992px) {
+    .container {
+        width: 100%;
+    }
+
 
     .mytext {
         padding: 0px;
+        align-items: center;
+        padding-top: 50px;
 
     }
+
+    #rating {
+        flex-wrap: wrap;
+    }
+
+    #company {
+        flex-wrap: wrap;
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:768px) {
+    .container {
+        width: 100%;
+    }
+
+    #company {
+        flex-wrap: wrap;
+    }
+
+    .mytext {
+        padding: 0px;
+        align-items: center;
+        padding-top: 40px;
+
+    }
+
 }
