@@ -16,3 +16,30 @@
 #white-star {
     color: rgb(247, 236, 179);
 }
+
+@media only screen and (min-width:992px) and (max-width:1400px) {
+    .container {
+        width: 100%;
+    }
+
+    #company {
+        visibility: visible;
+    }
+
+    .mytext {
+        padding: px;
+        position: relative;
+        align-items: center;
+        text-align: center;
+
+    }
+}
+
+@media only screen and (min-width:0px) and (max-width:992px) {
+    .container {}
+
+    .mytext {
+        padding: 0px;
+
+    }
+}
