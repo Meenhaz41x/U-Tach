@@ -1,0 +1,18 @@
+.mytext {
+    position: relative;
+    align-items: center;
+    padding: 250px;
+    text-align: center;
+}
+
+.simg {
+    filter: brightness(50%);
+}
+
+.fa-star {
+    color: gold;
+}
+
+#white-star {
+    color: rgb(247, 236, 179);
+}
